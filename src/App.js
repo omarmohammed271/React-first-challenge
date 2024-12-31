@@ -4,6 +4,7 @@ import './index.css';
 import Headers from './Headers';
 import Post from './posts';
 import SideMenu from './sideBar';
+import Scoreboard from './score';
 
 function App() {
   const posts = [
@@ -32,6 +33,11 @@ function App() {
         </div>
         <div className='flex-auto mx-8 w-1/5'>
           <SideMenu/>
+        </div>
+      </div>
+      <div className='container mx-auto mt-10 w-3/4 flex'>
+        <div className='w-3/5'>
+          <Scoreboard/>
         </div>
       </div>
     </div>
